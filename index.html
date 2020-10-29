@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Application Title</title>
+  <title data-i18n="app.title"></title>
+  <link rel="stylesheet" href="app/styles/app-style.css">
 </head>
-
-<body>
-  <div id="containerHome"></div>
-  <div data-spa-component="footer"></div>
+<body i18n-lang="en_US">
+  <main data-x-component="appRoot"></main>
 
   <script src="xlib/jquery/jquery.min.js"></script>
   <script src="xlib/handlebars/handlebars.min.js"></script>
